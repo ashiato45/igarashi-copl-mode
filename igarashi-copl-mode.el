@@ -49,8 +49,7 @@
   (progn
     (setq tab-width 4)
     ;; (setq indent-line-function 'indent-to-left-margin)
-    (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60
-                        64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))    
+    (setq tab-stop-list (number-sequence 4 120 4))    
     ;; )
     
     (setq font-lock-defaults '(igarashi-copl-syntax-keywords))
